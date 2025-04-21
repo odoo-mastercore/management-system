@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 
-from odoo import api, fields, models
+from odoo import api, fields, models,_
 
 
 class MgmtsystemNonconformity(models.Model):
@@ -213,6 +213,26 @@ class MgmtsystemNonconformity(models.Model):
                 }
             )
         return super().create(vals)
+
+    @api.constrains('res_model', 'res_id')
+    def _constrains_message(self):
+        for rec in self:
+            if not rec.res_model or not rec.res_id:
+                continue
+
+            model = self.env[rec.res_model].browse(rec.res_id)
+            if not model.exists():
+                continue
+
+            message_body = _("Se ha dado de alta una No conformidad para el registro: %s", model._get_html_link(title=model.name))
+            model.with_context(mail_create_nosubscribe=True).message_post(
+                body="📝 Se ha dado de alta una No conformidad para este registro.",
+                subtype_xmlid="mail.mt_note",
+                message_type="comment"
+            )
+            rec.with_context(mail_create_nosubscribe=True).message_post(
+                body=message_body,
+            )
 
     def write(self, vals):
         is_writing = self.env.context.get("is_writing", False)
