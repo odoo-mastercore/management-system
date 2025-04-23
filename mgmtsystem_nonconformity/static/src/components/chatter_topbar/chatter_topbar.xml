@@ -6,7 +6,7 @@
 
     <xpath expr="//Dropdown" position="before">
         <button
-          class="btn btn-light btn-primary"
+          class="btn"
           type="button"
           t-on-click="onClickShowNonConformities"
         >
