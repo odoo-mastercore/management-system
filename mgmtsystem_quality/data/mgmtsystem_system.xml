@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+##############################################################################
+# Author: Mastercore Sinapsys Global®
+# Copyright: 2019-Present.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
+#
+###############################################################################
+-->
+<odoo noupdate="1">
+    <record id="system_quality" model="mgmtsystem.system">
+        <field name="name">Quality</field>
+        <field
+            name="manual_id"
+            ref="document_page_quality_manual.document_page_quality_manual"
+        />
+    </record>
+</odoo>
