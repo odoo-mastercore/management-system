@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+##############################################################################
+# Author: Mastercore Sinapsys Global®
+# Copyright: 2019-Present.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
+#
+###############################################################################
+-->
+<odoo>
+    <menuitem id="menu_mgmtsystem_root" name="Management Systems" sequence="10"/>
+
+    <menuitem
+        id="menu_mgmtsystem_configuration"
+        name="Configuration"
+        parent="menu_mgmtsystem_root"
+        sequence="90"
+        groups="base.group_system"
+    />
+</odoo>
