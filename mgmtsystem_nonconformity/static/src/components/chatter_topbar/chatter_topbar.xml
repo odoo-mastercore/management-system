@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+  <t t-name="mgmtsystem_nonconformity.Chatter"
+     t-inherit="mail.Chatter"
+     t-inherit-mode="extension">
+
+    <xpath expr="//Dropdown" position="before">
+        <button
+          class="btn"
+          type="button"
+          t-on-click="onClickShowNonConformities"
+        >
+          <i
+            class="fa fa-exclamation-triangle fa-lg me-1"
+            role="img"
+            aria-label="Non conformities"
+          />
+        </button>
+    </xpath>
+
+  </t>
+</templates>
