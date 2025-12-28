@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+##############################################################################
+# Author: Mastercore Sinapsys Global®
+# Copyright: 2019-Present.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
+#
+###############################################################################
+-->
+<odoo noupdate="1">
+    <record id="document_page_quality_manual" model="document.page">
+        <field name="name">Manual de Calidad</field>
+        <field name="type">category</field>
+        <field name="template">
+<![CDATA[
+<h1>Manual de Calidad — ISO 9001:2015</h1>
+
+<p><strong>Mastercore Sinapsys Global®</strong><br/>
+Evolución para las empresas. Implementamos y mejoramos sistemas de gestión apoyándonos en Odoo, con foco en trazabilidad, consistencia y ejecución.</p>
+
+<h2>0. Información del documento</h2>
+<ul>
+  <li><strong>Propósito:</strong> Definir el Sistema de Gestión de la Calidad (SGC) y su estructura documental.</li>
+  <li><strong>Alcance:</strong> [Definir alcance del SGC: servicios, sedes, unidades, exclusiones justificadas].</li>
+  <li><strong>Vigencia:</strong> [Fecha de emisión] — [Versión].</li>
+  <li><strong>Dueño del documento:</strong> Dirección / Gestión de Operaciones.</li>
+</ul>
+
+<h2>1. Nuestra impronta</h2>
+<p>En Mastercore trabajamos con un enfoque práctico: procesos claros, evidencias simples y mejora continua. Nuestra forma de construir el SGC se alinea con:</p>
+<ul>
+  <li><strong>Jugamos para transformar, no para mantener.</strong></li>
+  <li><strong>Cada cliente es una oportunidad para rediseñar el juego.</strong></li>
+  <li><strong>La velocidad honra el compromiso.</strong></li>
+  <li><strong>Somos un equipo de builders.</strong></li>
+  <li><strong>Hacer las cosas bien genera resultados.</strong></li>
+</ul>
+
+<h2>2. Mapa ISO 9001:2015</h2>
+<p>Este manual sigue la estructura de ISO 9001:2015:</p>
+<ul>
+  <li>4. Contexto de la organización</li>
+  <li>5. Liderazgo</li>
+  <li>6. Planificación</li>
+  <li>7. Soporte</li>
+  <li>8. Operación</li>
+  <li>9. Evaluación del desempeño</li>
+  <li>10. Mejora</li>
+</ul>
+
+<hr/>
+
+<h1>4. Contexto de la organización</h1>
+
+<h2>4.1 Comprensión de la organización y su contexto</h2>
+<p>Identificamos factores internos y externos que afectan el propósito, dirección estratégica y capacidad de lograr resultados del SGC.</p>
+<ul>
+  <li>Factores internos: estructura, capacidades, cultura, madurez operativa, tecnología.</li>
+  <li>Factores externos: mercado, regulación, ecosistema Odoo, competencia, economía.</li>
+</ul>
+
+<h2>4.2 Necesidades y expectativas de las partes interesadas</h2>
+<p>Determinamos partes interesadas relevantes y sus requisitos: clientes, equipo interno, partners, proveedores, reguladores, comunidad.</p>
+
+<h2>4.3 Determinación del alcance del SGC</h2>
+<p><em>[Definir el alcance en términos claros: qué servicios y dónde aplica. Indicar exclusiones justificadas si correspondiera]</em></p>
+
+<h2>4.4 Sistema de Gestión de la Calidad y sus procesos</h2>
+<p>Definimos procesos, interacciones, criterios y evidencias. La operación se apoya en Odoo para asegurar trazabilidad y control.</p>
+<ul>
+  <li>Procesos clave: Comercial, Delivery (Implementación/Soporte/Scaling), Operaciones internas, PeopleCare.</li>
+  <li>Indicadores: cumplimiento, tiempos de respuesta, calidad de entrega, satisfacción, retrabajos.</li>
+</ul>
+
+<hr/>
+
+<h1>5. Liderazgo</h1>
+
+<h2>5.1 Liderazgo y compromiso</h2>
+<p>Dirección asume responsabilidad por la eficacia del SGC, impulsa mejora continua y asigna recursos para cumplir objetivos.</p>
+
+<h2>5.2 Política de Calidad</h2>
+<p><em>[Definir política breve, comunicable y medible. Ejemplo]</em></p>
+<ul>
+  <li>Entregar soluciones Odoo con calidad, trazabilidad y enfoque en el valor.</li>
+  <li>Cumplir requisitos aplicables y mejorar continuamente.</li>
+  <li>Desarrollar al equipo y estandarizar nuestro delivery.</li>
+</ul>
+
+<h2>5.3 Roles, responsabilidades y autoridades</h2>
+<p>Se definen roles y responsabilidades para sostener el SGC: Dirección, Operaciones, Líderes de Delivery, PeopleCare y Calidad.</p>
+
+<hr/>
+
+<h1>6. Planificación</h1>
+
+<h2>6.1 Acciones para abordar riesgos y oportunidades</h2>
+<p>Evaluamos riesgos (operativos, comerciales, calidad, seguridad de información) y oportunidades (automatización, estandarización, escalamiento).</p>
+<ul>
+  <li>Riesgos típicos: alta personalización, dependencias de terceros, cambios de versión Odoo, disponibilidad del equipo.</li>
+  <li>Oportunidades: plantillas, checklists, automatizaciones, base de conocimiento.</li>
+</ul>
+
+<h2>6.2 Objetivos de calidad y planificación para lograrlos</h2>
+<p><em>[Definir objetivos medibles y periodicidad]</em></p>
+<ul>
+  <li>Ej.: Reducir retrabajos por incidencias recurrentes en X%.</li>
+  <li>Ej.: Incrementar el cumplimiento de SLA a ≥ Y%.</li>
+  <li>Ej.: Aumentar satisfacción de clientes a ≥ Z/10.</li>
+</ul>
+
+<h2>6.3 Planificación de cambios</h2>
+<p>Los cambios se gestionan con evaluación de impacto, aprobaciones y evidencias en Odoo (tickets, tareas, versiones, releases).</p>
+
+<hr/>
+
+<h1>7. Soporte</h1>
+
+<h2>7.1 Recursos</h2>
+<p>Asignamos recursos humanos, tecnológicos y de conocimiento para ejecutar servicios consistentemente.</p>
+
+<h2>7.2 Competencia</h2>
+<p>Definimos competencias por rol, plan de formación y verificación (certificaciones, revisiones técnicas, mentoring).</p>
+
+<h2>7.3 Toma de conciencia</h2>
+<p>El equipo conoce la política, objetivos, su contribución al SGC y consecuencias de desviaciones.</p>
+
+<h2>7.4 Comunicación</h2>
+<p>Definimos qué comunicamos, cuándo, a quién y por qué canal (clientes, equipo, partners).</p>
+
+<h2>7.5 Información documentada</h2>
+<p>Controlamos documentos y registros: creación, actualización, distribución, acceso, retención y disposición.</p>
+<ul>
+  <li>Documentos: procedimientos, guías, plantillas, estándares.</li>
+  <li>Registros: evidencias de ejecución, revisiones, auditorías, acciones correctivas.</li>
+</ul>
+
+<hr/>
+
+<h1>8. Operación</h1>
+
+<h2>8.1 Planificación y control operacional</h2>
+<p>Planificamos entrega y soporte con criterios de aceptación, checklists, responsabilidades y trazabilidad.</p>
+
+<h2>8.2 Requisitos para productos y servicios</h2>
+<ul>
+  <li>8.2.1 Comunicación con el cliente: canales, responsables, tiempos.</li>
+  <li>8.2.2 Determinación de requisitos: alcance, supuestos, restricciones.</li>
+  <li>8.2.3 Revisión de requisitos: validación antes de comprometer entrega.</li>
+  <li>8.2.4 Cambios de requisitos: control de cambios y aprobaciones.</li>
+</ul>
+
+<h2>8.3 Diseño y desarrollo</h2>
+<p><em>Aplicable según el servicio:</em> diseño de soluciones y arquitectura (módulos, integraciones, personalizaciones) con revisiones y control.</p>
+
+<h2>8.4 Control de proveedores externos</h2>
+<p>Gestionamos terceros (OCA, librerías, servicios cloud, partners) evaluando riesgos, versiones y continuidad.</p>
+
+<h2>8.5 Producción y prestación del servicio</h2>
+<ul>
+  <li>Ejecución controlada: tareas, responsables, evidencias.</li>
+  <li>Identificación/trazabilidad: tickets, commits, builds, releases.</li>
+  <li>Preservación del conocimiento: documentación y base de conocimiento.</li>
+</ul>
+
+<h2>8.6 Liberación de productos y servicios</h2>
+<p>La liberación se realiza cuando se cumplen criterios acordados: pruebas mínimas, build limpio en odoo.sh, checklist.</p>
+
+<h2>8.7 Control de salidas no conformes</h2>
+<p>Se registran no conformidades, se contienen, se analizan causas, y se ejecutan acciones correctivas.</p>
+
+<hr/>
+
+<h1>9. Evaluación del desempeño</h1>
+
+<h2>9.1 Seguimiento, medición, análisis y evaluación</h2>
+<p>Monitoreamos indicadores operativos y de calidad. Ejemplos: SLA, retrabajo, lead time, satisfacción, estabilidad de builds.</p>
+
+<h2>9.2 Auditoría interna</h2>
+<p>Realizamos auditorías internas planificadas, registrando hallazgos, evidencias y acciones.</p>
+
+<h2>9.3 Revisión por la dirección</h2>
+<p>La dirección revisa periódicamente el SGC: desempeño, riesgos, oportunidades, recursos y decisiones.</p>
+
+<hr/>
+
+<h1>10. Mejora</h1>
+
+<h2>10.1 Generalidades</h2>
+<p>Impulsamos mejora continua mediante análisis de datos, feedback y aprendizaje institucional.</p>
+
+<h2>10.2 No conformidad y acción correctiva</h2>
+<p>Gestionamos no conformidades con enfoque causa raíz y prevención de recurrencia.</p>
+
+<h2>10.3 Mejora continua</h2>
+<p>La mejora se traduce en estandarización, automatización, mejores plantillas, formación y ajustes de proceso.</p>
+
+<hr/>
+
+<h2>Anexos</h2>
+<ul>
+  <li>A1. Mapa de procesos</li>
+  <li>A2. Matriz de partes interesadas</li>
+  <li>A3. Matriz de riesgos y oportunidades</li>
+  <li>A4. Indicadores y objetivos de calidad</li>
+  <li>A5. Control de información documentada</li>
+</ul>
+]]>
+        </field>
+    </record>
+</odoo>
