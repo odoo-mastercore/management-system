@@ -9,19 +9,24 @@
 -->
 <odoo noupdate="1">
     <record id="document_page_group_procedure" model="document.page">
-        <field name="name">Procedure</field>
+        <field name="name">Procedimiento</field>
         <field name="type">category</field>
         <field name="template">
 <![CDATA[
-<h1>Objective</h1>
+<h1>1. Objetivo</h1>
+<p>Definir el propósito de este procedimiento y los resultados esperados dentro del Sistema de Gestión de la Calidad (SGC).</p>
 
-<h1>Application Domain</h1>
+<h1>2. Alcance</h1>
+<p>Establecer el ámbito de aplicación del procedimiento, indicando procesos, áreas y situaciones en las que aplica.</p>
 
-<h1>Terms and Definitions</h1>
+<h1>3. Términos y definiciones</h1>
+<p>Describir los términos, siglas y definiciones necesarios para la correcta comprensión y aplicación del procedimiento.</p>
 
-<h1>Responsibilities</h1>
+<h1>4. Roles y responsabilidades</h1>
+<p>Definir los roles involucrados en la ejecución, control y seguimiento del procedimiento, así como sus responsabilidades.</p>
 
-<h1>Process</h1>
+<h1>5. Descripción del proceso</h1>
+<p>Detallar de forma estructurada las actividades que componen el procedimiento, sus interacciones, criterios de aceptación y evidencias requeridas.</p>
 ]]>
         </field>
     </record>
