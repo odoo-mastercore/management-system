@@ -6,4 +6,4 @@
 #
 ###############################################################################
 
-from . import mgmtsystem_nonconformity_hr
+from . import mgmtsystem_nonconformity
