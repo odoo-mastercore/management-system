@@ -36,7 +36,7 @@ Audit management for management systems (ISO-like):
         "reports/verification.xml",
         "reports/report.xml",
         "reports/mgmtsystem_audit_pivot.xml",
-        "wizard/copy_verification_lines.xml",
+        "wizards/copy_verification_lines.xml",
     ],
     "demo": [],
     "installable": True,
