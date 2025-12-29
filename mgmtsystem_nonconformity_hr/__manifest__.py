@@ -22,7 +22,7 @@ Extends Management System Nonconformities to associate employees.
         "hr",
     ],
     "data": [
-        "views/mgmtsystem_nonconformity.xml",
+        "views/mgmtsystem_nonconformity_views.xml",
     ],
     "installable": True,
 }
