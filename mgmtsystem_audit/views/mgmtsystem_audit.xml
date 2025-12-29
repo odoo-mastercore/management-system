@@ -17,27 +17,6 @@
         </field>
     </record>
 
-    <record id="view_mgmtsystem_verification_line_filter" model="ir.ui.view">
-        <field name="name">mgmtsystem.verification.line.filter</field>
-        <field name="model">mgmtsystem.verification.line</field>
-        <field name="type">search</field>
-        <field name="arch" type="xml">
-            <search string="Verification Lines">
-                <group>
-                    <field name="seq" />
-                    <field name="name" />
-                    <field
-                        name="procedure_id"
-                        domain="[('parent_id','in',['Procedure', 'Environmental Aspect', 'Quality Manual', 'Environment Manual'])]"
-                    />
-                    <field name="is_conformed" />
-                    <field name="comments" />
-                    <field name="company_id" groups="base.group_multi_company" />
-                </group>
-            </search>
-        </field>
-    </record>
-
     <record id="view_mgmtsystem_verification_line_form" model="ir.ui.view">
         <field name="name">mgmtsystem.verification.line.form</field>
         <field name="type">form</field>
@@ -82,38 +61,6 @@
                 <field name="system_id" />
                 <field name="company_id" groups="base.group_multi_company" />
             </list>
-        </field>
-    </record>
-
-    <record id="view_mgmtsystem_audit_filter" model="ir.ui.view">
-        <field name="name">mgmtsystem.audit.filter</field>
-        <field name="model">mgmtsystem.audit</field>
-        <field name="type">search</field>
-        <field name="arch" type="xml">
-            <search string="Audits">
-                <group>
-                    <filter
-                        name="current"
-                        icon="terp-document-new"
-                        domain="[('state','=','open')]"
-                        string="Open"
-                        help="Open Audits"
-                    />
-                    <filter
-                        name="closed"
-                        icon="terp-camera_test"
-                        domain="[('state','=','done')]"
-                        string="Closed"
-                        help="Closed Audits"
-                    />
-                    <separator orientation="vertical" />
-                    <field name="name" />
-                    <field name="date" />
-                    <field name="reference" />
-                    <field name="system_id" />
-                    <field name="company_id" groups="base.group_multi_company" />
-                </group>
-            </search>
         </field>
     </record>
 

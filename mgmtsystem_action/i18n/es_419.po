@@ -136,12 +136,6 @@ msgstr ""
 "            \n"
 "        "
 
-#. module: mgmtsystem_action
-#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
-msgid "Action"
-msgstr "Acción"
 
 #. module: mgmtsystem_action
 #: model:mail.template,name:mgmtsystem_action.email_template_new_action_reminder
@@ -213,10 +207,7 @@ msgstr "Añadir a descripción..."
 msgid "Age"
 msgstr "Edad"
 
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Archived"
-msgstr "Archivado"
+
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_attachment_count
@@ -253,11 +244,7 @@ msgstr "Fecha de Cierre"
 msgid "Color Index"
 msgstr "Índice de colores"
 
-#. module: mgmtsystem_action
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__company_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Company"
-msgstr "Empresa"
+
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__correction
@@ -362,20 +349,14 @@ msgstr "Seguidores (socios)"
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Fuente iconos sorprendentes , por ejemplo fa-tasks"
 
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Future Activities"
-msgstr "Actividades futuras"
+
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__sequence
 msgid "Gives the sequence order when displaying a list of actions."
 msgstr "Indica el orden de secuencia al mostrar una lista de acciones."
 
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Group By"
-msgstr "Agrupado por"
+
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__has_message
@@ -456,10 +437,7 @@ msgstr "Ultima actualización por"
 msgid "Last Updated on"
 msgstr "Ultima actualización el"
 
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Late Activities"
-msgstr "Actividades tardías"
+
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__priority__0
@@ -487,24 +465,9 @@ msgid "Messages"
 msgstr "Mensajes"
 
 #. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "My Actions"
-msgstr "Mis Acciones"
-
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "My Activities"
-msgstr "Mis Actividades"
-
-#. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Fecha límite de Mi Actividad"
-
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "My Followed Actions"
-msgstr "Mis acciones seguidas"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__name
@@ -569,11 +532,6 @@ msgid "Opening Date"
 msgstr "Fecha de apertura"
 
 #. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Pending"
-msgstr "Pendiente"
-
-#. module: mgmtsystem_action
 #: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__prevention
 #: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action_report__type_action__prevention
 msgid "Preventive Action"
@@ -636,19 +594,6 @@ msgstr "Referencia de ejemplo"
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__sequence
 msgid "Sequence"
 msgstr "Secuencia"
-
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Show all records which has next action date is before today"
-msgstr ""
-"Mostrar todos los registros cuya fecha de próxima acción sea anterior a hoy"
-
-#. module: mgmtsystem_action
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__stage_id
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__stage_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Stage"
-msgstr "Etapa"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__name
@@ -719,31 +664,9 @@ msgstr ""
 "etapa para mostrar."
 
 #. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Today Activities"
-msgstr "Actividades de Hoy"
-
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "Type"
-msgstr "Tipo"
-
-#. module: mgmtsystem_action
 #: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Tipo (o clase) de actividad excepcional registrada."
-
-#. module: mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
-msgid "Unread Messages"
-msgstr "Mensajes no leídos"
-
-#. module: mgmtsystem_action
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__user_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
-msgid "User"
-msgstr "Usuario"
 
 #. module: mgmtsystem_action
 #. odoo-python
